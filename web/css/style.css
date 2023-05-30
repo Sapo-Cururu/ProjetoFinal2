@@ -1,0 +1,42 @@
+body{
+    font-family: serif;
+}
+html{
+    background-color: rgb(136, 160, 168);
+    
+}
+
+.div{
+    background-color: rgba(114, 219, 178, 0.8);
+    width: 30%;
+    height: 40%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+    border: 2px solid;
+    padding: 1%;
+
+}
+.button{
+    background-color: transparent;
+    width: 50%;
+    height: 20%;
+    border: 1px solid;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.title{
+    text-align: center;
+
+}
+.button:hover{
+    background-color: rgba(236, 146, 177, 0.8);
+    width: 50%;
+    border: 1px solid;
+    border-radius: 4px;
+    margin-top: 5px;
+    cursor: pointer;
+}
